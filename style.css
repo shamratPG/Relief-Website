@@ -22,7 +22,7 @@ body {
 
 .header {
     font-size: 2.7rem;
-    font-weight: 600;
+    font-weight: 500;
     margin: 20px auto;
 }
 
@@ -41,13 +41,11 @@ input {
     font-size: 1.2rem;
     margin-bottom: 50px;
     background: rgba(238, 248, 238, 0.8);
-    color: rgba(44, 173, 44, 0.9);
-    font-weight: 500;
+    color: rgb(80, 80, 80);
 }
 
 input::placeholder {
-    color: rgba(44, 173, 44, 0.6);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 input:focus {
@@ -58,7 +56,7 @@ input:focus {
     text-decoration: none;
     color: white;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 500;
     padding: 10px 30px;
     border-radius: 10px;
     background: rgba(44, 173, 44, 0.9);
@@ -80,7 +78,7 @@ input:focus {
     display: flex;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(26, 25, 25, 0.1)), url(images/donation12.png);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(26, 25, 25, 0.3)), url(images/donation12.png);
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -90,7 +88,9 @@ input:focus {
 
 #hero-title {
     font-size: 4rem;
-
+    font-weight: 500;
+    line-height: 4.5rem;
+    margin-bottom: 40px;
 }
 
 #hero-text {
@@ -124,7 +124,7 @@ input:focus {
     text-decoration: none;
     font-size: 2.3rem;
     color: rgba(44, 173, 44, 0.7);
-    font-weight: 600;
+    font-weight: 500;
     padding: 35px 20px;
     border: 2px solid rgba(44, 173, 44, 0);
 }
@@ -173,6 +173,7 @@ input:focus {
 
 .plan-header {
     margin: 15px auto 10px;
+    font-weight: 600;
 }
 
 #statistics {
