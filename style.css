@@ -63,8 +63,7 @@
 }
 
 #donate-sec {
-    margin: 100px auto;
-
+    margin: 120px auto;
 }
 
 .text-area {
@@ -91,18 +90,120 @@
     justify-content: space-between;
 }
 
-a {
+#donate-amount a {
     text-decoration: none;
     font-size: 2.3rem;
-    color: rgb(99, 99, 99);
+    color: rgba(44, 173, 44, 0.7);
+    ;
     font-weight: 600;
+    padding: 35px 20px;
+    border: 2px solid rgba(44, 173, 44, 0);
 }
 
-#hover {
+#donate-amount a:hover {
     background: rgba(208, 255, 208, 0.8);
-    padding: 35px 20px;
-    color: rgba(44, 173, 44, 0.8);
+    color: rgba(44, 173, 44, 0.9);
     border: 2px solid rgba(44, 173, 44, 0.8);
     border-radius: 5px;
 
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 1px rgb(177, 177, 177);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    background: rgba(238, 248, 238, 0.8);
+    color: rgba(44, 173, 44, 0.9);
+    font-weight: 500;
+}
+
+input::placeholder {
+    color: rgba(44, 173, 44, 0.6);
+    font-weight: 600;
+}
+
+input:focus {
+    outline: 2px solid rgba(44, 173, 44, 0.8);
+}
+
+#donate-plan {
+    margin: 120px auto;
+}
+
+#plan-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.plan {
+    width: 32%;
+    padding: 30px 30px 20px;
+    border-radius: 5px;
+}
+
+.plan:nth-child(1) {
+    background: rgba(5, 139, 106, 0.2);
+}
+
+.plan:nth-child(3) {
+    background: rgba(124, 224, 9, 0.2);
+}
+
+.plan:nth-child(2) {
+    background: rgba(204, 158, 8, 0.2);
+}
+
+.plan p {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.plan-header {
+    margin: 15px auto 10px;
+}
+
+#statistics {
+    margin-bottom: 120px;
+}
+
+#stats-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+}
+
+.stats .header {
+    margin: 20px auto 0px;
+}
+
+#update {
+    margin-bottom: 80px;
+}
+
+#email-area {
+    background: rgba(44, 173, 44, 0.15);
+    padding: 70px;
+    border-radius: 5px;
+}
+
+#email-area input {
+    width: 70%;
+    margin-bottom: 0px;
+}
+
+footer {
+    color: wheat;
+    padding: 30px;
+    background: rgba(1, 77, 1, 0.8);
+}
+
+#footer-header {
+    font-weight: 500;
+    font-size: 1.8rem;
 }
