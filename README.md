@@ -22,8 +22,8 @@ First Assignment (programming hero). This is a demo landing page based on  a cha
 
 ### Links
 
-- [Solution URL](https://github.com/shamratPG/random-people-app)
-- [Live Site URL](https://shamratpg.github.io/random-people-app/)
+- [Solution URL](https://shamratpg.github.io/Relief-Website/)
+- [Live Site URL](https://github.com/shamratPG/Relief-Website)
 
 
 ### Built with
